@@ -1,0 +1,49 @@
+{
+	"project1":{
+		"name": "Politismos Quiz",
+		"image": ["assets/images/politismos-quiz-1.jpg","assets/images/politismos-quiz-2.jpg","assets/images/politismos-quiz-3.jpg"],
+		"description": "Quiz de 10 questions portant sur la culture générale s'inspirant d'un jeu célèbre. Projet réalisé à deux en deux semaines. En PHP procédural et en responsive.",
+		"technos": ["html_logo.png","css_logo.png","bootstrap_logo.jpg","Js_logo.png","jquery_logo.gif","AJAX_logo.png","PHP_logo.png","sql_logo.png","silex_logo.png","twig_logo.png"],
+		"link": "https://politismos-quiz.sdaguet-portfolio.fr/web/index.php/",
+		"sourcecode": "https://github.com/littleAsteria/projet-webforce3"
+	},
+
+	"project2":{
+		"name": "Annonceo",
+		"image": ["assets/images/image-portfolio1.jpg"],
+		"description": "Exemple de site de petites annonces, travail de groupe de 3 personnes réalisés en 3 jours.",
+		"technos": ["html_logo.png","css_logo.png","PHP_logo.png","sql_logo.png"],
+		"link": "https://annonceo.sdaguet-portfolio.fr/accueil.php",
+		"sourcecode": "https://github.com/stefygreg/annonceo"
+	},
+
+	"project3":{
+		"name": "Boutique en ligne",
+		"image": ["assets/images/shop.jpg","assets/images/portfolio-3.jpg","assets/images/portfolio-2.jpg"],
+		"description": "Exemple de site de e-commerce en PHP procédural (liens à venir).",
+		"technos": ["html_logo.png","css_logo.png","bootstrap_logo.jpg","PHP_logo.png","sql_logo.png"]
+	},
+
+	"project4":{
+		"name": "Brochure New-York",
+		"image": ["assets/images/portfolio-2.jpg"],
+		"description": "Petite brochure en responsive et css. Liens à venir",
+		"technos": ["html_logo.png","css_logo.png"]
+	},
+
+	"project5":{
+		"name": "Portfolio itself",
+		"image": ["assets/images/new-jungle2.jpg","assets/images/portfolio-1.jpg"],
+		"description": "Portfolio réalisé en full css, from scratch et en responsive",
+		"technos": ["html_logo.png","css_logo.png","Js_logo.png","jquery_logo.gif","AJAX_logo.png","PHP_logo.png"],
+		"link": "http://sdaguet-portfolio.fr/portfolio-sonia/index.php"
+	},
+
+	"project6":{
+		"name": "Mini-projet Angular Js",
+		"image": ["assets/images/portfolio-2.jpg"],
+		"description": "Premiers pas Angular Js à l'aide d'un template. Liens à venir",
+		"technos": ["bootstrap_logo.jpg","angularjs_logo.png"]
+	}
+
+}
