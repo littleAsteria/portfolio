@@ -556,7 +556,7 @@ main{
 
 	display: block;
 	width: 100%;
-
+	
 }
 
 
@@ -920,27 +920,43 @@ iframe{
 
 #btn-return{
 
-    width: 350px;
+    width: auto;
     display: block;
     text-align: center;
     margin: 50px auto 20px auto;
     padding: 10px;
+    background: #64FFDA;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Pacifico';
+	font-size: 1.4rem;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+
 }
+
+#btn-return:hover{
+	
+	background: #1DE9B6;
+}
+
 
 /*****Responsive*****/
 
 @media screen and (max-width:769px){
 
-	html{
-
+	/* html{
+	
 		font-size: 100%;
-	}
+	} */
 
 	body{
 
 		font: 100%;
 		margin: 0;
-		background: url('../images/jungle-mobile.jpg') center center no-repeat fixed;
+		background: url('../images/jungle-mobile.jpg') no-repeat fixed;
 		background-color: #82dfca;
 		
 	}
@@ -1047,6 +1063,7 @@ iframe{
 		padding: 10px 0px 10px 10px;
 		width: 100%;
 		border-radius: 4px;
+		background: #;
 
 	}
 
@@ -1105,6 +1122,7 @@ iframe{
 		margin: 10% auto;
 
 	}
+
 
 	.popin{
 
@@ -1199,6 +1217,53 @@ iframe{
 		width: 80%; 
 
 	}
+
+
+
+	.inavailable-page{
+
+		color: #fff;
+		margin: 0 auto;
+		width: 70%;
+    	top: 50%;
+    	left: 50%;
+    	position: absolute;
+    	transform: translate(-50%,-50%);
+	}
+
+
+	.inavailable-title{
+
+		margin: 20px auto 20px auto;
+		text-align: center;
+		color: #fff;
+		font-weight: bold;
+		font-size: 5vw;
+		width: auto;
+	}
+
+	.inavailable-paragraph{
+
+		margin: 0 auto;
+		font-size: 4vw;
+		font-weight: 400;
+		text-align: center;
+		width: auto;
+
+	}
+
+	#return{
+
+		text-decoration: none;
+		font-size: 4vw;
+		width: auto;
+	}
+
+	#btn-return{
+
+    	width: auto;
+	}
+
 }
 
 
@@ -1279,6 +1344,8 @@ iframe{
 		transform: scale(1);
 		cursor: pointer;
 		z-index: 0;
+		transition-duration: 1s;
+		/* background: rgba(130,223,202,0.8); */
 	}
 
 	.image, .image-first, .image-last{

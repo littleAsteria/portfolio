@@ -23,7 +23,8 @@ $(function(){
        .animate({scrollTop: $(target).offset().top}, 1500 );
   });
 
-  $(document).scroll(function(){
+/*comportement de la nav en fonction du scroll*/
+ /* $(document).scroll(function(){
 
         if ($(this).scrollTop() >= 100) {
 
@@ -33,7 +34,7 @@ $(function(){
 
             $("#navigation").removeClass("fixed");
         }
-    });
+    });*/
 
 	/****Récupération du fichier JSon avac la méthode ajax****/
    $.ajax({
