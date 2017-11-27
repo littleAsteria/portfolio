@@ -12,7 +12,7 @@
 
 	
 
-	<nav class="navigation">
+	<nav id="navigation">
 
 		<ul class="nav-list">
 			<li class="list" id="button-list">

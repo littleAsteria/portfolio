@@ -1,0 +1,188 @@
+body{
+
+	background:#e0e0e0;
+	margin:0;
+	font:16px sans-serif;
+
+}
+
+div{
+
+	width: 700px;
+	height: auto;
+	margin: 0 auto;
+	padding:10px 0;
+}
+
+header h1{
+	font-weight: lighter;
+	text-align: center;
+
+}
+
+
+h2{
+	background:#fff;
+	border-bottom:solid 3px #757575;
+	padding:10px;
+	position: -webkit-sticky;
+	position: sticky;
+	width: auto;
+	top: 0px;
+	
+
+}
+
+ol{
+	list-style-type: none;
+}
+
+.histoire::before{
+
+	content: "\f19c"  ;
+	font-family:"FontAwesome";
+	padding-right: 3px;
+
+}
+
+.geo::before{
+
+	content:"\f0ac" ;
+	font-family:"FontAwesome";
+	padding-right:3px;
+}
+
+.demo::before{
+
+	content:"\f007";
+	font-family: "FontAwesome";
+	padding-right: 3px;
+}
+
+.signet{
+
+	transition-duration:0.5s;
+
+}
+
+.signet:target{
+	/*permet un effet sur les liens cliqués*/
+	background:#999;
+	color:#fff;
+}
+section p img{
+	display: block;
+	width: 100%;
+
+}
+
+a{
+	text-decoration: none;
+	color:#3d3838;
+}
+
+p{
+	text-align:justify;
+	
+}
+
+#histoire::before{
+	content: "\f19c"  ;
+	font-family:"FontAwesome";
+	padding-right: 5px;
+
+}
+#geo::before{
+	content:"\f0ac" ;
+	font-family:"FontAwesome";
+	padding-right: 5px;
+
+}
+#demo::before{
+	content:"\f007";
+	font-family: "FontAwesome";
+	padding-right: 5px;
+
+}
+
+#top{
+
+	display: block;
+	margin: 10px auto;
+	width: 90%;
+	text-align: center;
+
+}
+
+#top:hover{
+
+	color: #ccc;
+}
+
+
+
+@media screen and (min-width:240px) and (max-width: 480px){
+	body{
+		margin: 0;
+	}
+	ol{
+		padding:0;
+	}
+	div{
+		width: auto;
+		margin:10px 10px;
+		padding:10px 0;
+	}
+
+	header h1{
+		width: auto;
+		font-size: 4vw;
+	}
+	nav h2{
+		width: auto;
+		font-size: 4vw;
+	}
+	ol{
+		background: #222;
+		line-height: 35px;
+	}
+
+	ol,li{
+	width: auto;
+	}
+
+	li{
+		width: auto;
+		font-size: 4vw;
+		background: #ccc;
+		padding-left: 5px;
+		margin-bottom: 1px;
+
+	
+	}
+
+	.signet{
+		width: auto;
+		font-size: 4vw;
+
+	}
+	section{
+		width: auto;
+		font-size: 4vw;
+	}
+	p{
+		width: auto;
+		background:#fafafa;
+		font-size:4vw;
+	}
+	
+	img{
+		width: 100%;
+
+	}
+	
+	a{
+		font-size: 4vw;
+	}
+
+}

@@ -23,6 +23,18 @@ $(function(){
        .animate({scrollTop: $(target).offset().top}, 1500 );
   });
 
+  $(document).scroll(function(){
+
+        if ($(this).scrollTop() >= 100) {
+
+            $("#navigation").addClass("fixed");
+
+        } else {
+
+            $("#navigation").removeClass("fixed");
+        }
+    });
+
 	/****Récupération du fichier JSon avac la méthode ajax****/
    $.ajax({
       url: "assets/js/portfolio.json",

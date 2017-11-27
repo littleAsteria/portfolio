@@ -10,7 +10,7 @@
 
 	"project2":{
 		"name": "Annonceo",
-		"image": ["assets/images/image-portfolio1.jpg"],
+		"image": ["assets/images/screen4.jpg","assets/images/screen5.jpg"],
 		"description": "Exemple de site de petites annonces, travail de groupe de 3 personnes réalisés en 3 jours.",
 		"technos": ["html_logo.png","css_logo.png","PHP_logo.png","sql_logo.png"],
 		"link": "https://annonceo.sdaguet-portfolio.fr/accueil.php",
@@ -21,22 +21,27 @@
 		"name": "Boutique en ligne",
 		"image": ["assets/images/shop.jpg","assets/images/portfolio-3.jpg","assets/images/portfolio-2.jpg"],
 		"description": "Exemple de site de e-commerce en PHP procédural (liens à venir).",
-		"technos": ["html_logo.png","css_logo.png","bootstrap_logo.jpg","PHP_logo.png","sql_logo.png"]
+		"technos": ["html_logo.png","css_logo.png","bootstrap_logo.jpg","PHP_logo.png","sql_logo.png"],
+		"link": "http://sdaguet-portfolio.fr/portfolio-sonia/no-code-source.html",
+		"sourcecode": "http://sdaguet-portfolio.fr/portfolio-sonia/no-code-source.html"
 	},
 
 	"project4":{
 		"name": "Brochure New-York",
-		"image": ["assets/images/portfolio-2.jpg"],
-		"description": "Petite brochure en responsive et css. Liens à venir",
-		"technos": ["html_logo.png","css_logo.png"]
+		"image": ["assets/images/screen6.jpg"],
+		"description": "Petite brochure en responsive et css.",
+		"technos": ["html_logo.png","css_logo.png"],
+		"link":["http://sdaguet-portfolio.fr/portfolio-sonia/newyork/index.html"],
+		"sourcecode": "http://sdaguet-portfolio.fr/portfolio-sonia/no-code-source.html"
 	},
 
 	"project5":{
 		"name": "Portfolio itself",
-		"image": ["assets/images/new-jungle2.jpg","assets/images/portfolio-1.jpg"],
+		"image": ["assets/images/new-jungle2.jpg","assets/images/screen2.jpg","assets/images/screen3.jpg"],
 		"description": "Portfolio réalisé en full css, from scratch et en responsive",
 		"technos": ["html_logo.png","css_logo.png","Js_logo.png","jquery_logo.gif","AJAX_logo.png","PHP_logo.png"],
-		"link": "http://sdaguet-portfolio.fr/portfolio-sonia/index.php"
+		"link": "http://sdaguet-portfolio.fr/portfolio-sonia/index.php",
+		"sourcecode": "https://github.com/littleAsteria/portfolio"
 	},
 
 	"project6":{
