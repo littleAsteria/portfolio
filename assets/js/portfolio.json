@@ -2,7 +2,7 @@
 	"project1":{
 		"name": "Politismos Quiz",
 		"image": ["assets/images/politismos-quiz-1.jpg","assets/images/politismos-quiz-2.jpg","assets/images/politismos-quiz-3.jpg"],
-		"description": "Quiz de 10 questions portant sur la culture générale s'inspirant d'un jeu célèbre. Projet réalisé à deux en deux semaines. En PHP procédural et en responsive.",
+		"description": "Quiz de 10 questions portant sur la culture générale s'inspirant d'un jeu célèbre. Projet réalisé à deux en deux semaines. En PHP Orienté Objet et en responsive.",
 		"technos": ["html_logo.png","css_logo.png","bootstrap_logo.jpg","Js_logo.png","jquery_logo.gif","AJAX_logo.png","PHP_logo.png","sql_logo.png","silex_logo.png","twig_logo.png"],
 		"link": "https://politismos-quiz.sdaguet-portfolio.fr/web/index.php/",
 		"sourcecode": "https://github.com/littleAsteria/projet-webforce3"

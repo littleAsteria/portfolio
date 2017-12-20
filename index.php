@@ -12,15 +12,15 @@
 
 	
 
-	<nav id="navigation">
+	<nav class="navigation">
 
 		<ul class="nav-list">
 			<li class="list" id="button-list">
 				<i class="fa fa-bars fa-fw fa-1x" id="burger-button"></i>
 			</li>
 			<li class="list casual"><a href="#index" id="second">Accueil</a></li>
-			<li class="list casual"><a href="#course">Parcours</a></li>
 			<li class="list casual"><a href="#portfolio">Portfolio</a></li>
+			<li class="list casual"><a href="#course">Parcours</a></li>
 			<li class="list casual"><a href="#contact">Contact</a></li>
 			<li class="list casual"><a href="#about">Coordonnées</a></li>
 			<li class="list casual"><a href="#cv" id="curriculum">Cv</a></li>
@@ -88,6 +88,101 @@
 			</div>
 		</section>
 
+		
+		
+
+		<!-- <section class="container" id="Compétences">
+		
+			<div class="content">
+			<h2 class="title">Compétences Web</h2>
+		
+		
+			</div>
+		
+		</section> -->
+
+		<section class="container" id="portfolio">
+
+			<div class="content">
+
+				<h2 class="title">Portfolio</h2>
+
+				<section class="images">
+
+					<figure id="project1" class="project">
+						<img src="assets/images/portfolio-1.jpg" alt="image">
+						<figcaption>
+							<h3 class="project-title">Projet 1</h3>
+							<p class="project">Politismos Quiz</p>
+						</figcaption>
+					</figure>
+				
+					<figure id="project2" class="project">
+						<img src="assets/images/image-portfolio1.jpg" alt="image">
+						<figcaption>
+							<h3 class="project-title">Projet 2</h3>
+							<p class="project">Annonceo</p>
+						</figcaption>
+					</figure>
+
+				
+
+					<figure id="project3" class="project">
+						<img src="assets/images/shop.jpg" alt="image">
+						<figcaption>
+							<h3 class="project-title">Projet 3</h3>
+							<p class="project">Boutique en ligne</p>
+						</figcaption>
+					</figure>
+
+
+					<figure id="project4" class="project">
+						<img src="assets/images/exemple-brochure.jpg" alt="image">
+						<figcaption>
+							<h3 class="project-title">Projet 4</h3>
+							<p class="project">Brochure</p>
+						</figcaption>
+					</figure>
+				
+
+					<figure id="project5" class="project">
+						<img src="assets/images/screen1.jpg" alt="image">
+						<figcaption>
+							<h3 class="project-title">Projet 5</h3>
+							<p class="project">Portfolio itself</p>
+						</figcaption>
+					</figure>
+
+					<!-- <figure id="project6" class="project">
+						<img src="assets/images/portfolio-3.jpg" alt="image">
+						<figcaption>
+							<h3 class="project-title">Projet 6</h3>
+							<p class="project">En Bootstrap</p>
+						</figcaption>
+					</figure> -->
+					
+					<!-- <figure id="project7" class="project">
+						<img src="assets/images/portfolio-4.jpg" alt="image">
+						<figcaption>
+							<h3 class="project-title">Projet 7</h3>
+							<p class="project">Lorem ipsum dolor</p>
+						</figcaption>
+					</figure>
+					
+					<figure id="project8" class="project">
+						<img src="assets/images/portfolio-1.jpg" alt="image">
+						<figcaption>
+							<h3 class="project-title">Projet 8</h3>
+							<p class="project">Lorem ipsum dolor</p>
+						</figcaption>
+					</figure> -->
+
+				</section>
+
+			</div>
+
+		</section>
+		
 		<section class="container" id="course">
 
 			<div class="content">
@@ -191,101 +286,6 @@
 			</div>
 
 		</section>
-		
-
-		<!-- <section class="container" id="Compétences">
-		
-			<div class="content">
-			<h2 class="title">Compétences Web</h2>
-		
-		
-			</div>
-		
-		</section> -->
-
-		<section class="container" id="portfolio">
-
-			<div class="content">
-
-				<h2 class="title">Portfolio</h2>
-
-				<section class="images">
-
-					<figure id="project1" class="project">
-						<img src="assets/images/portfolio-1.jpg" alt="image">
-						<figcaption>
-							<h3 class="project-title">Projet 1</h3>
-							<p class="project">Politismos Quiz</p>
-						</figcaption>
-					</figure>
-				
-					<figure id="project2" class="project">
-						<img src="assets/images/image-portfolio1.jpg" alt="image">
-						<figcaption>
-							<h3 class="project-title">Projet 2</h3>
-							<p class="project">Annonceo</p>
-						</figcaption>
-					</figure>
-
-				
-
-					<figure id="project3" class="project">
-						<img src="assets/images/shop.jpg" alt="image">
-						<figcaption>
-							<h3 class="project-title">Projet 3</h3>
-							<p class="project">Boutique en ligne</p>
-						</figcaption>
-					</figure>
-
-
-					<figure id="project4" class="project">
-						<img src="assets/images/exemple-brochure.jpg" alt="image">
-						<figcaption>
-							<h3 class="project-title">Projet 4</h3>
-							<p class="project">Brochure</p>
-						</figcaption>
-					</figure>
-				
-
-					<figure id="project5" class="project">
-						<img src="assets/images/screen1.jpg" alt="image">
-						<figcaption>
-							<h3 class="project-title">Projet 5</h3>
-							<p class="project">Portfolio itself</p>
-						</figcaption>
-					</figure>
-
-					<!-- <figure id="project6" class="project">
-						<img src="assets/images/portfolio-3.jpg" alt="image">
-						<figcaption>
-							<h3 class="project-title">Projet 6</h3>
-							<p class="project">En Bootstrap</p>
-						</figcaption>
-					</figure> -->
-					
-					<!-- <figure id="project7" class="project">
-						<img src="assets/images/portfolio-4.jpg" alt="image">
-						<figcaption>
-							<h3 class="project-title">Projet 7</h3>
-							<p class="project">Lorem ipsum dolor</p>
-						</figcaption>
-					</figure>
-					
-					<figure id="project8" class="project">
-						<img src="assets/images/portfolio-1.jpg" alt="image">
-						<figcaption>
-							<h3 class="project-title">Projet 8</h3>
-							<p class="project">Lorem ipsum dolor</p>
-						</figcaption>
-					</figure> -->
-
-				</section>
-
-			</div>
-
-		</section>
-		
-		
 		<section class="container" id="contact">
 
 
@@ -425,14 +425,13 @@
 
 				<ul class="footer-list">
 					<li class="list-element">Sonia Daguet</li>
-					<li class="list-element">06-29-21-11-75</li>
-					<li class="list-element">cinnamonpan@gmail.com
-					</li>
-					<li class="list-element">sonia.daguet
+					<li class="list-element"><a href="tel:06-29-21-11-75">06-29-21-11-75</a></li>
+					<li class="list-element"><a href="mailto:cinnamonpan@gmail.com">cinnamonpan@gmail.com</a></li>
+					<li class="list-element"><a href="skype:sonia.daguet?call">sonia.daguet</a>
 						<hr id="footer-hr">
 					</li>
 					<li class="list-element">
-						<a href="https://fr.linkedin.com/" target="_blank" class="link"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+						<a href="https://www.linkedin.com/in/sonia-daguet-176915153/" target="_blank" class="link"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
 					</li>
 					<li class="list-element">
 						<a href="https://github.com/littleAsteria" target="_blank" class="link"><i class="fa fa-github fa-fw fa-2x"></i></a>

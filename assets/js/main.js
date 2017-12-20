@@ -23,18 +23,7 @@ $(function(){
        .animate({scrollTop: $(target).offset().top}, 1500 );
   });
 
-/*comportement de la nav en fonction du scroll*/
- /* $(document).scroll(function(){
 
-        if ($(this).scrollTop() >= 100) {
-
-            $("#navigation").addClass("fixed");
-
-        } else {
-
-            $("#navigation").removeClass("fixed");
-        }
-    });*/
 
 	/****Récupération du fichier JSon avac la méthode ajax****/
    $.ajax({
@@ -88,6 +77,7 @@ $(function(){
 
             $('.popin-list').css('padding','0 ' + basePadding / project[id].technos.length +'%');
             $('.popin-list-element').css('margin','0 '+ baseMargin / project[id].technos.length +'%');
+
           }
             
             
@@ -126,6 +116,7 @@ $(function(){
 if(window.innerWidth < responsiveWidth){
 
   $('.casual').hide();
+
 }
 
 $( window ).resize(function(){
@@ -133,6 +124,7 @@ $( window ).resize(function(){
   if(window.innerWidth >= responsiveWidth){
 
     $('.casual').show();
+
 
   }
   else{
@@ -147,6 +139,23 @@ $( window ).resize(function(){
     $('.casual').delay(100).slideToggle(400);
     
   });
+
+/*comportement de la nav en fonction du scroll*/
+ /*$(document).scroll(function(){
+
+        if ($(this).scrollTop() <= 100) {
+
+            $("nav").addClass("fixed");
+            $("nav").removeClass("navigation");
+
+        } else {
+
+            $(".navigation").removeClass("fixed");
+            $("nav").addClass("navigation");
+        }
+    });*/
+
+
 
 /**Fermeture de la popin**/
 
